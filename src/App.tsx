@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" Component={CharacterListComponent} />
-        <Route path="/character/:id" Component={CharacterDetail} />
+        <Route path="/:id" Component={CharacterDetail} />
       </Routes>
     </>
   );

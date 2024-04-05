@@ -32,7 +32,7 @@ const CharacterListComponent = () => {
                 </Card.Title>
               </Card.Body>
               <Card.Body className="d-flex justify-content-end align-items-end m-0 p-0">
-                <Card.Link href={`character/${character.id}`} className="m-1" style={{ color: "info", textDecoration: "none", fontWeight: "bold" }}>
+                <Card.Link href={`/${character.id}`} className="m-1" style={{ color: "info", textDecoration: "none", fontWeight: "bold" }}>
                   Detail
                 </Card.Link>
               </Card.Body>
